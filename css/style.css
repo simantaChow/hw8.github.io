@@ -122,7 +122,7 @@ a{
 /*Banner Seciton End*/
 
 #about_me {
-    height: 728px;
+    height: 400px;
     width: auto;
 }
 
@@ -146,3 +146,53 @@ a{
     margin: 30px auto;
     display: block;
 }
+
+#about_me p{
+    width: 912px;
+    height: 151px;
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+
+#title_goes_here .cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title_goes_here .card{
+    width: 160px;
+    height: 164px;
+}
+
+#title_goes_here img{
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+#title_goes_here .card h3{
+    font-size: 16px;
+    line-height: 23px;
+    color: #7e8287;
+    font-weight: 800;
+    text-align: center;
+}
+
+#title_goes_here .card p{
+    width: 100%;
+    font-size: 11px;
+    line-height: 21px;
+    color: #7e8287;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
