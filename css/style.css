@@ -199,10 +199,69 @@ p {
 
 #service .inner_container {
   width: 50%;
+  padding: 50px 0;
 }
 
 #service .service_item {
-  width: 25%;
+  width: 50%;
+  padding: 50px 50px 20px 0;
 }
 
+#service .service_item h3{
+  text-align: left;
+  padding-top: 20px;
+}
+#service .service_item i {
+  font-size: 30px;
+  color: #02918c;
+}
+
+#service .service_item p {
+  padding-top: 20px;
+}
 /* service section end */
+
+/* mywork section start */
+
+#mywork .mywork_info{
+  text-align: center;
+  padding: 112px 0;
+}
+
+#mywork .mywork_info p{
+  width: 681px;
+  display: inline-block;
+  line-height: 41px;
+}
+/* mywork section end */
+
+
+/* photo gallary start*/
+
+#photo_gallary .photo{
+  width: 25%;
+  display: inline;
+  background-color: #02918c;
+  text-align: center;
+  position: relative;
+}
+
+#photo_gallary .overlay{
+  position: absolute;
+  inset: 20px 28px;
+
+}
+#photo_gallary .photo img{
+  width: 100%;
+}
+
+#photo_gallary .overlay h2{
+  font-size: 22px;
+  color: #ffffff;  
+}
+#photo_gallary .overlay p{
+  font-size: 15px;
+  color: #ffffff;  
+}
+
+/* photo gallary end*/
