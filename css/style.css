@@ -241,27 +241,51 @@ p {
 #photo_gallary .photo{
   width: 25%;
   display: inline;
-  background-color: #02918c;
   text-align: center;
   position: relative;
 }
 
-#photo_gallary .overlay{
+#photo_gallary .photo .overlay{
   position: absolute;
   inset: 20px 28px;
-
+  background-color: #02918c;
+  transition: 1s;
+  transform: scale(0);
 }
+
+#photo_gallary .photo:hover .overlay{
+  transform: scale(1);
+}
+
+
 #photo_gallary .photo img{
   width: 100%;
+  display: block;
 }
 
 #photo_gallary .overlay h2{
   font-size: 22px;
-  color: #ffffff;  
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
 }
 #photo_gallary .overlay p{
   font-size: 15px;
-  color: #ffffff;  
+  color: #ffffff; 
+  text-align: center;
+  display: inline-block;
+  width: 80%;
 }
 
 /* photo gallary end*/
+
+
+/*Contact Section Start*/
+#contact{
+  width: 100%;
+  height: 556px;
+  background-color: #0b0b0b;
+}
+/*Contact Section End*/
+
+/*Contact Section End*/
