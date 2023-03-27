@@ -280,7 +280,7 @@ p {
 /*Contact Section Start*/
 #contact {
   width: 100%;
-  height: 556px;
+  height: 480px;
   background-color: #0b0b0b;
 }
 /*Contact Section START*/
@@ -288,19 +288,70 @@ p {
 #contact input {
   background-color: #0b0b0b;
   border: none;
-  font-size: 25px;
+  font-size: 15px;
   display: block;
   margin: auto;
   padding: 50px auto;
   text-align: center;
   padding-top: 60px;
-  border-bottom: #7e8287 solid 2px;
+  border-bottom: #7e8287 solid 1px;
   width: 638px;
   color: #ffffff;
+  padding-bottom: 10px;
 }
 
-#contact .inputs:nth-last-child(2) {
-  width: 921px;
+#contact input:nth-last-child(-1n+3){
+  width: 938px;
 }
 
+#contact button {
+  background-color: #cfc91d;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  font-weight: 800;
+  margin-top: 30px;
+  letter-spacing: 3px;
+  transition: .6s;
+}
+
+
+#contact button:hover {
+  background-color: #cfc91d;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  margin: auto;
+  cursor: pointer;
+  font-weight: 800;
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
 /*Contact Section End*/
+
+
+/*copy_right Section start*/
+#copy_right {
+  width: 100%;
+  background-color: #000000;
+  height:70px;
+}
+
+#copy_right p{
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+}
+
+
+/*copy_right Section End*/
